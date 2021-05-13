@@ -27,7 +27,7 @@
         | 32fc4cfb-5a72-4f6b-ab40-4383b761a47a | ef5a0821-8cd8-45c8-8413-c1d74ca4fda8 | Geography             |
     Then the number of saved qualifications should be 3
 
-  Scenario: Adding duplicate qualification generates HTTP BadRequest status code
+  Scenario: Adding duplicate qualification generates an API error status code
     Given the following qualifications have already been added
         | Qualification Id                     | Course Id                            | Course Name           |
         | e62316a8-3a25-404d-a7df-77ff4b176317 | f0b675ff-4f56-44c7-85bd-a949add0fed5 | French                |
